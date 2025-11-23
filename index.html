@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mixkuuu — Link Bio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+<<style>
+    :root{--bg1:#07143a;--bg2:#0b3b5a;--card:rgba(255,255,255,0.06);--accent:#00e6a7;--muted:#cbd5e1}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Noto Sans',sans-serif;background:linear-gradient(180deg,var(--bg1),var(--bg2));min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;color:var(--muted)}
+    .wrap{width:100%;max-width:420px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.04),rgba(255,255,255,0.02));border-radius:18px;padding:26px;text-align:center;box-shadow:0 12px 40px rgba(2,6,23,0.5);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,0.03)}
+    .avatar{width:120px;height:120px;border-radius:999px;overflow:hidden;margin:0 auto 14px;border:4px solid rgba(0,0,0,0.25)}
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    h1{margin:0;font-size:22px;color:white;letter-spacing:0.4px}
+    p.lead{margin:6px 0 18px;color:var(--muted);font-size:13px}
+    .links{display:flex;flex-direction:column;gap:12px}
+    .btn{display:flex;align-items:center;gap:12px;padding:12px;border-radius:12px;text-decoration:none;color:var(--bg2);background:linear-gradient(90deg,#ffffff,#f0f6ff);font-weight:600;box-shadow:0 6px 18px rgba(2,6,23,0.25)}
+    .btn svg{flex:0 0 38px;width:38px;height:38px;border-radius:8px;padding:6px;background:linear-gradient(180deg,#f8fafc,#eef2ff);}
+    .hint{font-size:12px;color:var(--muted);margin-top:10px}
+    .small{font-size:12px;color:rgba(255,255,255,0.6);margin-top:14px}
+    .share{margin-top:12px;display:flex;gap:8px;justify-content:center}
+    .share a{padding:8px 12px;border-radius:8px;background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);text-decoration:none;font-weight:600}
+    @media (prefers-color-scheme:light){:root{--bg1:#e6f7f2;--bg2:#dff3f0}body{color:#0b1220}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="avatar"><img src="profile.png" alt="Mixkuuu profile"></div>
+      <h1>Mixkuuu</h1>
+      <p class="lead">Salam! Klik tombol di bawah untuk akses channel & kontak.</p>
+
+      <div class="links">
+        <a class="btn" id="wa" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="6" fill="#25D366"/><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.149-.672.15-.198.297-.768.967-.942 1.165-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.786-1.48-1.755-1.653-2.052-.173-.297-.018-.458.13-.606.134-.133.298-.347.447-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.52-.075-.148-.672-1.612-.921-2.207-.242-.579-.487-.5-.672-.51l-.573-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487 0 0 .092.039.198.059.105.018.297.013.409-.019.112-.031 1.39-.564 1.586-.627.198-.062.372-.099.537-.062.165.035 1.758.809 2.006.954.248.148.414.223.475.347.06.124.06.72-.237 1.364-.297.644-1.392 1.384-3.17 1.123-1.778-.261-3.7-1.465-5.02-2.997C6.91 16.146 6 13.957 6 11.69 6 7.99 8.99 5 12.69 5c1.86 0 3.61.725 4.92 2.04 1.31 1.315 2.07 3.07 2.05 4.93-.02 1.86-.71 3.59-2.29 4.41z" fill="#fff"/></svg>
+          WhatsApp
+        </a>
+
+        <a class="btn" id="yt" href="https://youtube.com/@official.ajmstudio?si=ScmSezKH97Q4mu_D" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#FF0000"/><path d="M9.75 9.5v5l4.5-2.5-4.5-2.5z" fill="#fff"/></svg>
+          YouTube
+        </a>
+
+        <a class="btn" id="tt" href="https://www.tiktok.com/@mixku_1?_r=1&_t=ZS-91dqWekkueI" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#000"/><path d="M9 7c0 0 2 0 3 2s4 2 4 6c0 4-3 5-6 5s-6-2-6-6 2-7 5-7z" fill="#fff"/></svg>
+          TikTok
+        </a>
+      </div>
+
+      <p class="hint">Atau pindai QR di GitHub Pages untuk akses cepat.</p>
+
+      <div class="share">
+        <a id="copy" href="#">Salin Link</a>
+        <a id="edit" href="#">Edit Sementara</a>
+      </div>
+
+      <p class="small">File ini siap diupload ke GitHub. Letakkan <strong>profile.png</strong> (avatar) di folder yang sama sebelum upload.</p>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      // configure WhatsApp number (international format, e.g. 6289...)
+      const WA = '62895393930680';
+      const waUrl = 'https://wa.me/' + WA + '?text=' + encodeURIComponent('Hallo Mimin !!!
+Aku mau order aplikasi editing mod atau jasa editing dong min 😄.');
+      document.getElementById('wa').href = waUrl;
+
+      // copy current page url
+      const copyBtn = document.getElementById('copy');
+      copyBtn.addEventListener('click', function(e){ e.preventDefault(); navigator.clipboard.writeText(location.href).then(()=>{ alert('Link tersalin!'); }); });
+
+      // quick edit (change WA on the fly)
+      document.getElementById('edit').addEventListener('click', function(e){
+        e.preventDefault();
+        const newnum = prompt('Masukkan nomor WA internasional (628...):', WA);
+        if(newnum){ location.href = location.pathname + '?wa=' + newnum; }
+      });
+
+      // read wa param if present (for quick edit)
+      const params = new URLSearchParams(location.search);
+      if(params.has('wa')){
+        const n = params.get('wa');
+        document.getElementById('wa').href = 'https://wa.me/' + n + '?text=' + encodeURIComponent('Hallo Mimin !!!
+Aku mau order aplikasi editing mod atau jasa editing dong min 😄.');
+      }
+    })();
+  </script>
+</body>
+</html>
